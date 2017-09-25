@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"au",
+				"auto_now_add"
+			],
+			[
+				"m",
+				"max_length"
+			],
+			[
 				"con",
 				"contactForm"
 			],
@@ -28,22 +36,19 @@
 	"buffers":
 	[
 		{
-			"file": "src/templates/base.html",
+			"file": "src/restaurants/models.py",
 			"settings":
 			{
-				"buffer_size": 455,
+				"buffer_size": 498,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "import random\nfrom django.http import HttpResponse\nfrom django.shortcuts import render\n\n# Create your views here.\n# function based view\ndef home(request): \n    num = None\n    some_list = [\n        random.randint(0, 10000000), \n        random.randint(0, 10000000), \n        random.randint(0, 10000000)\n    ]\n    condition_bool_item = False\n    if condition_bool_item:\n        num = random.randint(0, 10000000)\n    context = {\n        \"bool_item\": True,\n        \"num\": num,\n        \"some_list\": some_list\n    }\n    return render(request, \"base.html\", context)",
-			"file": "src/restaurants/views.py",
-			"file_size": 525,
-			"file_write_time": 131506752229218800,
+			"file": "src/restaurants/admin.py",
 			"settings":
 			{
-				"buffer_size": 557,
+				"buffer_size": 126,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -86,16 +91,25 @@
 		"/home/shu/pyprojects/trydjango1-11/src/muypicky",
 		"/home/shu/pyprojects/trydjango1-11/src/muypicky/settings",
 		"/home/shu/pyprojects/trydjango1-11/src/restaurants",
-		"/home/shu/pyprojects/trydjango1-11/src/templates"
+		"/home/shu/pyprojects/trydjango1-11/src/templates",
+		"/home/shu/pyprojects/trydjango1-11/src/templates/snippets"
 	],
 	"file_history":
 	[
-		"/home/shu/pyprojects/trydjango1-11/src/muypicky/settings/__init__.py",
 		"/home/shu/pyprojects/trydjango1-11/src/muypicky/settings/base.py",
-		"/home/shu/pyprojects/trydjango1-11/src/muypicky/settings/production.py",
+		"/home/shu/pyprojects/trydjango1-11/src/templates/base.html",
+		"/home/shu/pyprojects/trydjango1-11/src/templates/about.html",
+		"/home/shu/pyprojects/trydjango1-11/src/templates/contact.html",
 		"/home/shu/pyprojects/trydjango1-11/src/restaurants/views.py",
-		"/home/shu/pyprojects/trydjango1-11/src/muypicky/settings/local.py",
 		"/home/shu/pyprojects/trydjango1-11/src/muypicky/urls.py",
+		"/home/shu/pyprojects/trydjango1-11/src/templates/snippets/sidebar.html",
+		"/home/shu/pyprojects/trydjango1-11/src/templates/snippets/js.html",
+		"/home/shu/pyprojects/trydjango1-11/src/templates/snippets/nav.html",
+		"/home/shu/pyprojects/trydjango1-11/src/templates/snippets/css.html",
+		"/home/shu/pyprojects/trydjango1-11/src/templates/home.html",
+		"/home/shu/pyprojects/trydjango1-11/src/muypicky/settings/__init__.py",
+		"/home/shu/pyprojects/trydjango1-11/src/muypicky/settings/production.py",
+		"/home/shu/pyprojects/trydjango1-11/src/muypicky/settings/local.py",
 		"/home/shu/pyprojects/trydjango1-11/.git/description",
 		"/home/shu/pyprojects/checkio/.git/description",
 		"/home/shu/pyprojects/trydjango1-11/.git/HEAD",
@@ -130,7 +144,7 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -164,65 +178,63 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/templates/base.html",
+					"file": "src/restaurants/models.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 455,
+						"buffer_size": 498,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								287,
-								287
+								383,
+								383
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 102.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/restaurants/views.py",
+					"file": "src/restaurants/admin.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 557,
+						"buffer_size": 126,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								424,
-								424
+								125,
+								125
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 51.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -267,7 +279,7 @@
 	"project": "muypicky.sublime-project",
 	"replace":
 	{
-		"height": 69.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
