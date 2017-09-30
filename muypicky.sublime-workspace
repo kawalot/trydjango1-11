@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ran",
+				"random_string_generator"
+			],
+			[
 				"rest",
 				"Restaurants"
 			],
@@ -64,13 +68,22 @@
 			"file": "src/restaurants/views.py",
 			"settings":
 			{
-				"buffer_size": 1141,
+				"buffer_size": 1798,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/restaurants/templates/restaurants/restaurant_list.html",
+			"file": "src/restaurants/templates/restaurants/form.html",
+			"settings":
+			{
+				"buffer_size": 525,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/restaurants/forms.py",
 			"settings":
 			{
 				"buffer_size": 394,
@@ -82,7 +95,7 @@
 			"file": "src/muypicky/urls.py",
 			"settings":
 			{
-				"buffer_size": 1414,
+				"buffer_size": 1498,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -134,6 +147,7 @@
 	[
 		"/home/shu/pyprojects/trydjango1-11/src/restaurants/utils.py",
 		"/home/shu/pyprojects/trydjango1-11/src/restaurants/templates/restaurants/restaurant_list.html",
+		"/home/shu/pyprojects/trydjango1-11/src/restaurants/templates/forms.py",
 		"/home/shu/pyprojects/trydjango1-11/src/restaurants/templates/restaurants/restaurant_detail.html",
 		"/home/shu/pyprojects/trydjango1-11/src/muypicky/settings/base.py",
 		"/home/shu/pyprojects/trydjango1-11/src/restaurants/admin.py",
@@ -219,7 +233,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -235,8 +249,8 @@
 						"selection":
 						[
 							[
-								1194,
-								1194
+								397,
+								187
 							]
 						],
 						"settings":
@@ -244,10 +258,10 @@
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 255.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -256,15 +270,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1141,
+						"buffer_size": 1798,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1141,
-								1141
+								690,
+								690
 							]
 						],
 						"settings":
@@ -274,27 +288,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 264.0,
+						"translation.y": 195.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "src/restaurants/templates/restaurants/restaurant_list.html",
+					"file": "src/restaurants/templates/restaurants/form.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 394,
+						"buffer_size": 525,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								235,
-								235
+								191,
+								191
 							]
 						],
 						"settings":
@@ -305,24 +319,52 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "src/muypicky/urls.py",
+					"file": "src/restaurants/forms.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1414,
+						"buffer_size": 394,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1153,
-								1153
+								305,
+								305
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/muypicky/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1498,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1170,
+								1170
 							]
 						],
 						"settings":
@@ -332,7 +374,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 247.0,
+						"translation.y": 298.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
