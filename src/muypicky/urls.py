@@ -19,28 +19,12 @@ from django.views.generic import TemplateView
 
 from django.contrib.auth.views import LoginView
 
-
-
-from restaurants.views import (
-    restaurant_listview,
-    RestaurantListView,
-    RestaurantDetailView,
-    RestaurantCreateView,
-    resturant_createview,
-)
-
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^login/$', LoginView.as_view(), name='login'),
     url(r'^$', TemplateView.as_view(template_name='home.html'), name='home'),
     url(r'^items/', include('menus.urls', namespace='menus')),
     url(r'^restaurants/', include('restaurants.urls', namespace='restaurants')),
-    # url(r'^restaurants/$', RestaurantListView.as_view(), name='restaurants'),
-    # url(r'^restaurants/create/$', RestaurantCreateView.as_view(), name='restaurants-create'),
-    # url(r'^restaurants/create/$', resturant_createview),
-    # url(r'^restaurants/(?P<slug>\w+)/$', RestaurantListView.as_view()),
-    # url(r'^restaurants/(?P<slug>[\w-]+)/$', RestaurantDetailView.as_view(), name='restaurant-detail'),
-    # url(r'^restaurants/fusion$', FusionRestaurantListView.as_view()),
     url(r'^about/$', TemplateView.as_view(template_name='about.html'), name='about'),
     url(r'^contact/$', TemplateView.as_view(template_name='contact.html'), name='contact'),
 ]
