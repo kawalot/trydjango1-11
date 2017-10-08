@@ -30,5 +30,5 @@ class Item(models.Model):
     def get_excludes(self):
         return self.excludes.split(",")
 
-    def get_absolute_urls(self):
+    def get_absolute_url(self):
         return reverse('menus:detail', kwargs={'pk': self.pk})
