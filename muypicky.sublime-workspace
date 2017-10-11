@@ -4,8 +4,20 @@
 		"selected_items":
 		[
 			[
+				"post_sa",
+				"post_save_user_receiver"
+			],
+			[
 				"Re",
-				"RestaurantCreateView"
+				"RestaurantQuerySet"
+			],
+			[
+				"nam",
+				"name__icontains"
+			],
+			[
+				"Res",
+				"RestaurantManager"
 			],
 			[
 				"vali",
@@ -80,19 +92,28 @@
 	"buffers":
 	[
 		{
-			"file": "src/menus/urls.py",
+			"file": "src/profiles/models.py",
 			"settings":
 			{
-				"buffer_size": 341,
+				"buffer_size": 858,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/restaurants/urls.py",
+			"file": "src/restaurants/models.py",
 			"settings":
 			{
-				"buffer_size": 417,
+				"buffer_size": 2574,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/profiles/admin.py",
+			"settings":
+			{
+				"buffer_size": 120,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -104,12 +125,36 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 236.0,
-		"last_filter": "",
+		"height": 123.0,
+		"last_filter": "Package Control: rem",
 		"selected_items":
 		[
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"install package ",
+				"Install Package Control"
+			],
+			[
+				"install",
+				"Install Package Control"
+			]
 		],
-		"width": 392.0
+		"width": 412.0
 	},
 	"console":
 	{
@@ -131,35 +176,42 @@
 	[
 		"/home/shu/pyprojects/trydjango1-11",
 		"/home/shu/pyprojects/trydjango1-11/src",
-		"/home/shu/pyprojects/trydjango1-11/src/menus",
-		"/home/shu/pyprojects/trydjango1-11/src/menus/templates",
-		"/home/shu/pyprojects/trydjango1-11/src/menus/templates/menus",
-		"/home/shu/pyprojects/trydjango1-11/src/muypicky",
-		"/home/shu/pyprojects/trydjango1-11/src/muypicky/settings",
+		"/home/shu/pyprojects/trydjango1-11/src/profiles",
+		"/home/shu/pyprojects/trydjango1-11/src/profiles/templates",
+		"/home/shu/pyprojects/trydjango1-11/src/profiles/templates/profiles",
 		"/home/shu/pyprojects/trydjango1-11/src/restaurants",
 		"/home/shu/pyprojects/trydjango1-11/src/restaurants/templates",
-		"/home/shu/pyprojects/trydjango1-11/src/restaurants/templates/restaurants",
-		"/home/shu/pyprojects/trydjango1-11/src/templates"
+		"/home/shu/pyprojects/trydjango1-11/src/restaurants/templates/restaurants"
 	],
 	"file_history":
 	[
-		"/home/shu/pyprojects/trydjango1-11/src/menus/models.py",
-		"/home/shu/pyprojects/trydjango1-11/src/restaurants/urls.py",
-		"/home/shu/pyprojects/trydjango1-11/src/menus/views.py",
-		"/home/shu/pyprojects/trydjango1-11/src/menus/templates/menus/item_list.html",
-		"/home/shu/pyprojects/trydjango1-11/src/menus/templates/menus/item_detail.html",
-		"/home/shu/pyprojects/trydjango1-11/src/templates/form.html",
-		"/home/shu/pyprojects/trydjango1-11/src/restaurants/templates/restaurants/form.html",
-		"/home/shu/pyprojects/trydjango1-11/src/restaurants/views.py",
-		"/home/shu/pyprojects/trydjango1-11/src/restaurants/models.py",
 		"/home/shu/pyprojects/trydjango1-11/src/muypicky/urls.py",
+		"/home/shu/pyprojects/trydjango1-11/src/profiles/urls.py",
+		"/home/shu/pyprojects/trydjango1-11/src/restaurants/models.py",
+		"/home/shu/pyprojects/trydjango1-11/src/profiles/templates/profiles/user.html",
+		"/home/shu/pyprojects/trydjango1-11/src/profiles/views.py",
 		"/home/shu/pyprojects/trydjango1-11/src/muypicky/settings/base.py",
-		"/home/shu/pyprojects/trydjango1-11/src/menus/forms.py",
-		"/home/shu/pyprojects/trydjango1-11/src/menus/admin.py",
-		"/home/shu/pyprojects/trydjango1-11/src/templates/snippets/nav.html",
-		"/home/shu/pyprojects/trydjango1-11/src/restaurants/templates/restaurants/restaurant_list.html",
-		"/home/shu/pyprojects/trydjango1-11/src/templates/registration/login.html",
+		"/home/shu/pyprojects/trydjango1-11/src/restaurants/views.py",
+		"/home/shu/pyprojects/trydjango1-11/src/templates/form.html",
 		"/home/shu/pyprojects/trydjango1-11/src/restaurants/forms.py",
+		"/home/shu/pyprojects/trydjango1-11/src/menus/views.py",
+		"/home/shu/pyprojects/trydjango1-11/src/menus/templates/menus/detail-update.html",
+		"/home/shu/pyprojects/trydjango1-11/src/menus/templates/menus/item_list.html",
+		"/home/shu/pyprojects/trydjango1-11/src/menus/urls.py",
+		"/home/shu/pyprojects/trydjango1-11/src/templates/snippets/form-snippet.html",
+		"/home/shu/pyprojects/trydjango1-11/src/restaurants/urls.py",
+		"/home/shu/pyprojects/trydjango1-11/src/restaurants/templates/restaurants/detail-update.html",
+		"/home/shu/pyprojects/trydjango1-11/src/restaurants/templates/restaurants/restaurant_list.html",
+		"/home/shu/pyprojects/trydjango1-11/src/templates/snippets/nav.html",
+		"/home/shu/pyprojects/trydjango1-11/src/restaurants/templates/restaurants/form.html",
+		"/home/shu/pyprojects/trydjango1-11/src/menus/models.py",
+		"/home/shu/pyprojects/trydjango1-11/src/menus/forms.py",
+		"/home/shu/.config/sublime-text-3/Packages/Anaconda/Default (Linux).sublime-keymap",
+		"/home/shu/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/shu/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/shu/pyprojects/trydjango1-11/src/menus/templates/menus/item_detail.html",
+		"/home/shu/pyprojects/trydjango1-11/src/menus/admin.py",
+		"/home/shu/pyprojects/trydjango1-11/src/templates/registration/login.html",
 		"/home/shu/pyprojects/trydjango1-11/src/restaurants/validators.py",
 		"/home/shu/pyprojects/trydjango1-11/lib/python3.6/site-packages/django/forms/models.py",
 		"/home/shu/pyprojects/trydjango1-11/src/restaurants/utils.py",
@@ -224,6 +276,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" }}",
+			"snipppet",
+			"Restaurants",
+			"self",
 			"restaurant",
 			" {{",
 			"True",
@@ -251,19 +307,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/menus/urls.py",
+					"file": "src/profiles/models.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 341,
+						"buffer_size": 858,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								152,
-								152
+								636,
+								636
 							]
 						],
 						"settings":
@@ -279,19 +335,49 @@
 				},
 				{
 					"buffer": 1,
-					"file": "src/restaurants/urls.py",
+					"file": "src/restaurants/models.py",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 417,
+						"buffer_size": 2574,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1797,
+								1750
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 714.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/profiles/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								120,
+								120
 							]
 						],
 						"settings":
@@ -302,7 +388,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -347,7 +433,7 @@
 	"project": "muypicky.sublime-project",
 	"replace":
 	{
-		"height": 69.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
