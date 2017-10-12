@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"is",
+				"is_following"
+			],
+			[
+				"fo",
+				"followers"
+			],
+			[
 				"post_sa",
 				"post_save_user_receiver"
 			],
@@ -95,24 +103,7 @@
 			"file": "src/profiles/models.py",
 			"settings":
 			{
-				"buffer_size": 858,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/restaurants/models.py",
-			"settings":
-			{
-				"buffer_size": 2574,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/profiles/admin.py",
-			"settings":
-			{
-				"buffer_size": 120,
+				"buffer_size": 1535,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -176,20 +167,27 @@
 	[
 		"/home/shu/pyprojects/trydjango1-11",
 		"/home/shu/pyprojects/trydjango1-11/src",
+		"/home/shu/pyprojects/trydjango1-11/src/menus",
+		"/home/shu/pyprojects/trydjango1-11/src/muypicky",
+		"/home/shu/pyprojects/trydjango1-11/src/muypicky/settings",
 		"/home/shu/pyprojects/trydjango1-11/src/profiles",
 		"/home/shu/pyprojects/trydjango1-11/src/profiles/templates",
 		"/home/shu/pyprojects/trydjango1-11/src/profiles/templates/profiles",
+		"/home/shu/pyprojects/trydjango1-11/src/profiles/templates/profiles/snippet",
 		"/home/shu/pyprojects/trydjango1-11/src/restaurants",
 		"/home/shu/pyprojects/trydjango1-11/src/restaurants/templates",
-		"/home/shu/pyprojects/trydjango1-11/src/restaurants/templates/restaurants"
+		"/home/shu/pyprojects/trydjango1-11/src/restaurants/templates/restaurants",
+		"/home/shu/pyprojects/trydjango1-11/src/templates"
 	],
 	"file_history":
 	[
+		"/home/shu/pyprojects/trydjango1-11/src/profiles/views.py",
 		"/home/shu/pyprojects/trydjango1-11/src/muypicky/urls.py",
+		"/home/shu/pyprojects/trydjango1-11/src/profiles/templates/profiles/user.html",
+		"/home/shu/pyprojects/trydjango1-11/src/profiles/templates/profiles/snippet/follow_form.html",
+		"/home/shu/pyprojects/trydjango1-11/src/profiles/admin.py",
 		"/home/shu/pyprojects/trydjango1-11/src/profiles/urls.py",
 		"/home/shu/pyprojects/trydjango1-11/src/restaurants/models.py",
-		"/home/shu/pyprojects/trydjango1-11/src/profiles/templates/profiles/user.html",
-		"/home/shu/pyprojects/trydjango1-11/src/profiles/views.py",
 		"/home/shu/pyprojects/trydjango1-11/src/muypicky/settings/base.py",
 		"/home/shu/pyprojects/trydjango1-11/src/restaurants/views.py",
 		"/home/shu/pyprojects/trydjango1-11/src/templates/form.html",
@@ -276,6 +274,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"%}",
 			" }}",
 			"snipppet",
 			"Restaurants",
@@ -311,15 +310,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 858,
+						"buffer_size": 1535,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								636,
-								636
+								612,
+								612
 							]
 						],
 						"settings":
@@ -327,68 +326,10 @@
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 51.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/restaurants/models.py",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 2574,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1797,
-								1750
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 714.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/profiles/admin.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 120,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								120,
-								120
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
