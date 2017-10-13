@@ -99,15 +99,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/profiles/models.py",
-			"settings":
-			{
-				"buffer_size": 1535,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -168,6 +159,8 @@
 		"/home/shu/pyprojects/trydjango1-11",
 		"/home/shu/pyprojects/trydjango1-11/src",
 		"/home/shu/pyprojects/trydjango1-11/src/menus",
+		"/home/shu/pyprojects/trydjango1-11/src/menus/templates",
+		"/home/shu/pyprojects/trydjango1-11/src/menus/templates/menus",
 		"/home/shu/pyprojects/trydjango1-11/src/muypicky",
 		"/home/shu/pyprojects/trydjango1-11/src/muypicky/settings",
 		"/home/shu/pyprojects/trydjango1-11/src/profiles",
@@ -181,8 +174,11 @@
 	],
 	"file_history":
 	[
-		"/home/shu/pyprojects/trydjango1-11/src/profiles/views.py",
+		"/home/shu/pyprojects/trydjango1-11/src/profiles/models.py",
+		"/home/shu/pyprojects/trydjango1-11/src/menus/views.py",
 		"/home/shu/pyprojects/trydjango1-11/src/muypicky/urls.py",
+		"/home/shu/pyprojects/trydjango1-11/src/menus/templates/menus/home-feed.html",
+		"/home/shu/pyprojects/trydjango1-11/src/profiles/views.py",
 		"/home/shu/pyprojects/trydjango1-11/src/profiles/templates/profiles/user.html",
 		"/home/shu/pyprojects/trydjango1-11/src/profiles/templates/profiles/snippet/follow_form.html",
 		"/home/shu/pyprojects/trydjango1-11/src/profiles/admin.py",
@@ -192,7 +188,6 @@
 		"/home/shu/pyprojects/trydjango1-11/src/restaurants/views.py",
 		"/home/shu/pyprojects/trydjango1-11/src/templates/form.html",
 		"/home/shu/pyprojects/trydjango1-11/src/restaurants/forms.py",
-		"/home/shu/pyprojects/trydjango1-11/src/menus/views.py",
 		"/home/shu/pyprojects/trydjango1-11/src/menus/templates/menus/detail-update.html",
 		"/home/shu/pyprojects/trydjango1-11/src/menus/templates/menus/item_list.html",
 		"/home/shu/pyprojects/trydjango1-11/src/menus/urls.py",
@@ -301,37 +296,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/profiles/models.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1535,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								612,
-								612
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 51.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
